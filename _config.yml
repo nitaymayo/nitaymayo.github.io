@@ -23,7 +23,7 @@ email: nitaymayo@gmail.com
 description: My coding portfolio showcases a diverse range of projects utilizing various programming languages and frameworks such as Python, Java, HTML, CSS, JavaScript, SQL, Qiskit, Flask and TensorFlow.
 baseurl: ""
 url: "https://nitaymayo.github.io"
-twitter_username: -
+# twitter_username: none
 github_username:  nitaymayo
 
 # Build settings
