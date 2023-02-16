@@ -20,11 +20,11 @@
 
 title: Nitay mayo's Portfolio
 email: nitaymayo@gmail.com
-description: >- 
+description: >-  # this means to ignore newlines until "baseurl:"
 My coding portfolio showcases a diverse range of projects utilizing various programming 
 languages and frameworks such as Python, Java, HTML, CSS, JavaScript, SQL, Qiskit, Flask and 
 TensorFlow.
-baseurl: "/"
+baseurl: ""
 url: "https://nitaymayo.github.io"
 twitter_username: -
 github_username:  nitaymayo
