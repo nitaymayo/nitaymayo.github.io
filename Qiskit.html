@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Project: Qiskit</title>
+    <meta name="description" content="Case study page of Project" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .project-details__showcase-img{
+        height: 50vh;
+        width: auto;
+      }
+      .project-details__content {
+        padding: 8rem 0;
+        max-width: 90rem;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;}
+      .project-details__showcase-img-cont {
+        width: initial;
+        margin-bottom: 6rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/nitay-mayo.png"
+              alt="Nitay Mayo Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Nitay Mayo</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home</a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Quantum Circuits with Qiskit</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Quantum circuits and algorithms using IBM's python module for quantum computing - Qiskit
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="https://github.com/nitaymayo/QiskitNotebooks" class="btn btn--bg" target="_blank">See the Notebooks</a>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+          <div class="project-details__content">
+            <div class="project-details__showcase-img-cont">
+              <img
+                src="./assets/png/qiskit/qiskit_qubitsrotation.png"
+                alt="Project Image"
+                class="project-details__showcase-img"
+              />
+            </div>
+            <div class="project-details__content-main">
+              <div class="project-details__desc">
+                <h3 class="project-details__content-title">Project Overview</h3>
+                <p class="project-details__desc-para">
+                  As I was investigating the world of quantum computing, I was able to learn how to
+                  write and execute several quantum circuits using Qiskit. One of the
+                  circuits I created was a simple quantum teleportation circuit, which
+                  involves using entanglement to transfer the state of one qubit to another.
+                  The circuit involved preparing two qubits in a maximally entangled state,
+                  performing some operations on the first qubit to be teleported, and then
+                  measuring both qubits to transfer the state of the first qubit to the second.
+                  I was able to run this circuit on IBM's quantum computers through the IBM
+                  Quantum Experience, which allowed me to see firsthand the effects of noise
+                  and errors in real-world quantum computing.
+                </p>
+                <div style="display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-around;">
+                <div class="project-details__showcase-img-cont">
+                  <img
+                    src="./assets/png/qiskit/qiskit_circuitplot.png"
+                    alt="Project Image"
+                    class="project-details__showcase-img"
+                  />
+                  </div>
+                <div class="project-details__showcase-img-cont">
+                  <img
+                    src="./assets/png/qiskit/qiskit_circuitexample.png"
+                    alt="Project Image"
+                    class="project-details__showcase-img"
+                  />
+                </div>
+                </div>
+                <p class="project-details__desc-para">
+                  Another circuit I created was a small-scale implementation of Shor's algorithm
+                  for factoring large numbers. This algorithm is one of the most famous quantum
+                  algorithms, as it is able to factor large numbers exponentially faster than
+                  classical algorithms, which has important implications for cryptography.
+                  The circuit involved performing several steps, including creating a superposition
+                  of possible values, performing a quantum Fourier transform, and using measurements
+                  to extract the factors of the large number. Although the circuit was too complex
+                  to run on current quantum computers, I was able to use Qiskit's simulation
+                  capabilities to test and optimize the circuit, which allowed me to gain a deeper
+                  understanding of the algorithm and its potential applications.
+                </p>
+                <div style="display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-around;">
+                  <div class="project-details__showcase-img-cont">
+                  <img
+                    src="./assets/png/qiskit/qiskit_ibmcomposer.png"
+                    alt="Project Image"
+                    class="project-details__showcase-img"
+                  />
+                  </div>
+                <div class="project-details__showcase-img-cont">
+                </div>
+              </div>
+              <div class="project-details__tools-used">
+                <h3 class="project-details__content-title">Tools Used</h3>
+                <div class="skills">
+                  <div class="skills__skill">Python</div>
+                  <div class="skills__skill">Qiskit</div>
+                  <div class="skills__skill">IBM Quantum Lab</div>
+                  <div class="skills__skill">Quantum Computing</div>
+                  <div class="skills__skill">GIT</div>
+                </div>
+              </div>
+              <div class="project-details__links">
+                <h3 class="project-details__content-title">See the Code</h3>
+                <a
+                  href="https://github.com/nitaymayo/QiskitNotebooks"
+                  class="btn btn--med btn--theme-inv project-details__links-btn"
+                  target="_blank"
+                  >Notebooks Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/nitaymayo">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/nitay.mayo">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/facebook-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Nitay Mayo</h4>
+            <p class="main-footer__short-desc">
+              Experienced AI developer with a focus on quantum computing
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

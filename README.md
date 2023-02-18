@@ -404,10 +404,10 @@ Currently, I have already added a separate for each project ( considering there 
       <div class="projects__row">
         <div class="projects__row-img-cont">
           <img
-            src="./assets/jpeg/project-mockup-example.jpeg"
-            alt="Software Screenshot"
-            class="projects__row-img"
-            loading="lazy"
+                  src="./assets/jpeg/project-mockup-example.jpeg"
+                  alt="Software Screenshot"
+                  class="projects__row-img"
+                  loading="lazy"
           />
         </div>
         <div class="projects__row-content">
@@ -417,20 +417,20 @@ Currently, I have already added a separate for each project ( considering there 
             tempora, explicabo quae quod deserunt eius sapiente praesentium.
           </p>
           <a
-            href="./project-1.html"
-            class="btn btn--med btn--theme dynamicBgClr"
-            target="_blank"
-            >Case Study</a
+                  href="Bistrong.html"
+                  class="btn btn--med btn--theme dynamicBgClr"
+                  target="_blank"
+          >Case Study</a
           >
         </div>
       </div>
       <div class="projects__row">
         <div class="projects__row-img-cont">
           <img
-            src="./assets/jpeg/project-mockup-example.jpeg"
-            alt="Software Screenshot"
-            class="projects__row-img"
-            loading="lazy"
+                  src="./assets/jpeg/project-mockup-example.jpeg"
+                  alt="Software Screenshot"
+                  class="projects__row-img"
+                  loading="lazy"
           />
         </div>
         <div class="projects__row-content">
@@ -440,20 +440,20 @@ Currently, I have already added a separate for each project ( considering there 
             tempora, explicabo quae quod deserunt eius sapiente praesentium.
           </p>
           <a
-            href="./project-2.html"
-            class="btn btn--med btn--theme dynamicBgClr"
-            target="_blank"
-            >Case Study</a
+                  href="BoardNumberGame.html"
+                  class="btn btn--med btn--theme dynamicBgClr"
+                  target="_blank"
+          >Case Study</a
           >
         </div>
       </div>
       <div class="projects__row">
         <div class="projects__row-img-cont">
           <img
-            src="./assets/jpeg/project-mockup-example.jpeg"
-            alt="Software Screenshot"
-            class="projects__row-img"
-            loading="lazy"
+                  src="./assets/jpeg/project-mockup-example.jpeg"
+                  alt="Software Screenshot"
+                  class="projects__row-img"
+                  loading="lazy"
           />
         </div>
         <div class="projects__row-content">
@@ -463,10 +463,10 @@ Currently, I have already added a separate for each project ( considering there 
             tempora, explicabo quae quod deserunt eius sapiente praesentium.
           </p>
           <a
-            href="./project-3.html"
-            class="btn btn--med btn--theme dynamicBgClr"
-            target="_blank"
-            >Case Study</a
+                  href="TicTacToeDL.html"
+                  class="btn btn--med btn--theme dynamicBgClr"
+                  target="_blank"
+          >Case Study</a
           >
         </div>
       </div>
