@@ -144,8 +144,14 @@ textarea {
   display: inline-block;
   font-weight: 700;
   border-radius: 5px;
+  margin: 0 0.6rem;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
+@media only screen and (max-width: 56.25em){
+  .btn{
+    margin: 0.6rem;
+  }
+}
   .btn:hover {
     transform: translateY(-3px); }
   .btn--bg {
