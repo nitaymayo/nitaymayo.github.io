@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Project: Donut Blink</title>
+    <meta name="description" content="Case study page of Project" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .project-details__showcase-img{
+        height: 50vh;
+      }
+      .project-details__content {
+        padding: 8rem 0;
+        max-width: 90rem;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;}
+      .project-details__showcase-img-cont {
+        width: initial;
+        margin-bottom: 6rem;
+      }
+      .img_description{
+        text-align: center;
+        font-size: 1.5rem;
+
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/nitay-mayo.png"
+              alt="Nitay Mayo Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Nitay Mayo</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home</a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Donut Blink</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            AI-powered app that monitor user's eye state.
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="https://github.com/nitaymayo/Donut_Blink" class="btn btn--bg" target="_blank">See the Code</a>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+          <div class="project-details__content">
+            <div class="project-details__showcase-img-cont">
+              <video width="80%" muted loop autoplay>
+                <source src="assets/mp4/Donut_blink_demonstration.mp4">
+              </video>
+              <script>
+                document.querySelector('video').playbackRate = 10.0;
+                document.querySelector('video').play();
+              </script>
+            </div>
+            <div class="project-details__content-main">
+              <div class="project-details__desc">
+                <h3 class="project-details__content-title">Project Overview</h3>
+                <p class="project-details__desc-para">
+                  Donut Blink is an AI-powered application designed to help users monitor
+                  their blinking behavior while using their computer. The app uses the
+                  computer's web camera to capture video of the user's face and analyze
+                  the video to detect when their eyes are open or closed. The app notifies
+                  the user with a red rectangle around a closed eye and a green rectangle
+                  around an open eye. The app is built using Python, TensorFlow, and Dlib
+                  library, making it a powerful tool for anyone interested in developing
+                  computer vision applications.
+                </p>
+                <div class="project-details__showcase-img-cont">
+                  <img
+                    src="./assets/jpeg/donut_blink_logo.jpeg"
+                    alt="Project Image"
+                    class="project-details__showcase-img"
+                  />
+                  </div>
+                <p class="project-details__desc-para">
+                  The AI model used in Donut Blink is based on the EfficientNetB0
+                  pre-trained model as a feature extractor. The model has been trained
+                  on a large dataset of images, allowing it to identify patterns and
+                  features in the user's eye's states accurately. With this approach,
+                  Donut Blink can detect eye behavior with high precision and accuracy,
+                  making it a valuable tool for anyone interested in monitoring their eye
+                  health while using a computer. The app's intuitive interface and ease of
+                  use make it a great addition to anyone's toolbox, regardless of their
+                  technical expertise.
+                </p>
+                <div style="display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-around;">
+                  <div class="project-details__showcase-img-cont">
+                  <img
+                    src="./assets/png/Donut_Blink/Donut_Blink_model_predictions.png"
+                    alt="Project Image"
+                    class="project-details__showcase-img"
+                  />
+                    <div class="img_description">
+                      The Efficientnet Powered model making predictions on eye's images
+                    </div>
+                  </div>
+                <div class="project-details__showcase-img-cont">
+                  <img
+                    src="./assets/png/Donut_Blink/Donut_Blink_models_evaluation.png"
+                    alt="Project Image"
+                    class="project-details__showcase-img"
+                  />
+
+                    <div class="img_description">
+                      Bar plot of the evaluations parameters of 6 tested models
+                    </div>
+                </div>
+              </div>
+              <div class="project-details__tools-used">
+                <h3 class="project-details__content-title">Tools Used</h3>
+                <div class="skills">
+                  <div class="skills__skill">Python</div>
+                  <div class="skills__skill">Tensorflow</div>
+                  <div class="skills__skill">AI</div>
+                  <div class="skills__skill">Computer Vision</div>
+                  <div class="skills__skill">Dlib</div>
+                  <div class="skills__skill">GIT</div>
+                </div>
+              </div>
+              <div class="project-details__links">
+                <h3 class="project-details__content-title">See the Code</h3>
+                <a
+                  href="https://github.com/nitaymayo/Donut_Blink"
+                  class="btn btn--med btn--theme-inv project-details__links-btn"
+                  target="_blank"
+                  >Code Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/nitaymayo">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/nitay.mayo">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/facebook-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Nitay Mayo</h4>
+            <p class="main-footer__short-desc">
+              Experienced AI developer with a focus on quantum computing
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
